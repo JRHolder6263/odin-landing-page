@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.main-container {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 150px;
+    background-color: #1F2937;
+}
+
+header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.nav-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
